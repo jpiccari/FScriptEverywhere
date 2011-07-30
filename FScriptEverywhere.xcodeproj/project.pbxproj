@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03627DE713E3E24B00265801 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03627DE613E3E24B00265801 /* Cocoa.framework */; };
+		03627DF113E3E24B00265801 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03627DEF13E3E24B00265801 /* InfoPlist.strings */; };
+		03627DF313E3E24B00265801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03627DF213E3E24B00265801 /* main.m */; };
+		03627DF713E3E24B00265801 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03627DF513E3E24B00265801 /* Credits.rtf */; };
+		03627DFA13E3E24B00265801 /* FScriptEverywhereAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03627DF913E3E24B00265801 /* FScriptEverywhereAppDelegate.m */; };
+		03627DFD13E3E24B00265801 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03627DFB13E3E24B00265801 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03627DE213E3E24B00265801 /* FScriptEverywhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FScriptEverywhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03627DE613E3E24B00265801 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03627DE913E3E24B00265801 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03627DEA13E3E24B00265801 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03627DEB13E3E24B00265801 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03627DEE13E3E24B00265801 /* FScriptEverywhere-Info.plist */ = {isa = PBXFileReference; path = "FScriptEverywhere-Info.plist"; sourceTree = "<group>"; };
+		03627DF013E3E24B00265801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03627DF213E3E24B00265801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03627DF413E3E24B00265801 /* FScriptEverywhere-Prefix.pch */ = {isa = PBXFileReference; path = "FScriptEverywhere-Prefix.pch"; sourceTree = "<group>"; };
+		03627DF613E3E24B00265801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03627DF813E3E24B00265801 /* FScriptEverywhereAppDelegate.h */ = {isa = PBXFileReference; path = FScriptEverywhereAppDelegate.h; sourceTree = "<group>"; };
+		03627DF913E3E24B00265801 /* FScriptEverywhereAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FScriptEverywhereAppDelegate.m; sourceTree = "<group>"; };
+		03627DFC13E3E24B00265801 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03627DDF13E3E24B00265801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03627DE713E3E24B00265801 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03627DD713E3E24B00265801 = {
+			isa = PBXGroup;
+			children = (
+				03627DEC13E3E24B00265801 /* FScriptEverywhere */,
+				03627DE513E3E24B00265801 /* Frameworks */,
+				03627DE313E3E24B00265801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03627DE313E3E24B00265801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03627DE213E3E24B00265801 /* FScriptEverywhere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03627DE513E3E24B00265801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03627DE613E3E24B00265801 /* Cocoa.framework */,
+				03627DE813E3E24B00265801 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03627DE813E3E24B00265801 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03627DE913E3E24B00265801 /* AppKit.framework */,
+				03627DEA13E3E24B00265801 /* CoreData.framework */,
+				03627DEB13E3E24B00265801 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03627DEC13E3E24B00265801 /* FScriptEverywhere */ = {
+			isa = PBXGroup;
+			children = (
+				03627DF813E3E24B00265801 /* FScriptEverywhereAppDelegate.h */,
+				03627DF913E3E24B00265801 /* FScriptEverywhereAppDelegate.m */,
+				03627DFB13E3E24B00265801 /* MainMenu.xib */,
+				03627DED13E3E24B00265801 /* Supporting Files */,
+			);
+			path = FScriptEverywhere;
+			sourceTree = "<group>";
+		};
+		03627DED13E3E24B00265801 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03627DEE13E3E24B00265801 /* FScriptEverywhere-Info.plist */,
+				03627DEF13E3E24B00265801 /* InfoPlist.strings */,
+				03627DF213E3E24B00265801 /* main.m */,
+				03627DF413E3E24B00265801 /* FScriptEverywhere-Prefix.pch */,
+				03627DF513E3E24B00265801 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03627DE113E3E24B00265801 /* FScriptEverywhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03627E0013E3E24B00265801 /* Build configuration list for PBXNativeTarget "FScriptEverywhere" */;
+			buildPhases = (
+				03627DDE13E3E24B00265801 /* Sources */,
+				03627DDF13E3E24B00265801 /* Frameworks */,
+				03627DE013E3E24B00265801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FScriptEverywhere;
+			productName = FScriptEverywhere;
+			productReference = 03627DE213E3E24B00265801 /* FScriptEverywhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03627DD913E3E24B00265801 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 03627DDC13E3E24B00265801 /* Build configuration list for PBXProject "FScriptEverywhere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03627DD713E3E24B00265801;
+			productRefGroup = 03627DE313E3E24B00265801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03627DE113E3E24B00265801 /* FScriptEverywhere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03627DE013E3E24B00265801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03627DF113E3E24B00265801 /* InfoPlist.strings in Resources */,
+				03627DF713E3E24B00265801 /* Credits.rtf in Resources */,
+				03627DFD13E3E24B00265801 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03627DDE13E3E24B00265801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03627DF313E3E24B00265801 /* main.m in Sources */,
+				03627DFA13E3E24B00265801 /* FScriptEverywhereAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03627DEF13E3E24B00265801 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03627DF013E3E24B00265801 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03627DF513E3E24B00265801 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03627DF613E3E24B00265801 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03627DFB13E3E24B00265801 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03627DFC13E3E24B00265801 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03627DFE13E3E24B00265801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03627DFF13E3E24B00265801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03627E0113E3E24B00265801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScriptEverywhere/FScriptEverywhere-Prefix.pch";
+				INFOPLIST_FILE = "FScriptEverywhere/FScriptEverywhere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03627E0213E3E24B00265801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScriptEverywhere/FScriptEverywhere-Prefix.pch";
+				INFOPLIST_FILE = "FScriptEverywhere/FScriptEverywhere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03627DDC13E3E24B00265801 /* Build configuration list for PBXProject "FScriptEverywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03627DFE13E3E24B00265801 /* Debug */,
+				03627DFF13E3E24B00265801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03627E0013E3E24B00265801 /* Build configuration list for PBXNativeTarget "FScriptEverywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03627E0113E3E24B00265801 /* Debug */,
+				03627E0213E3E24B00265801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03627DD913E3E24B00265801 /* Project object */;
+}
