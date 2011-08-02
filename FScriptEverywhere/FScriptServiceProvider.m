@@ -45,6 +45,20 @@ static char gdb_cmds[] =
 	"quit\n";
 
 
+/*
+ * The following function comes from 0xced [https://github.com/0xced] and was
+ * much appreciated for this project, it made everything go very smoothly.
+ * Thanks 0xced!
+ *
+ * Original post: https://gist.github.com/163918
+ */
+
+/*
+ * Returns an array of CFDictionaryRef types, each of which contains information about one of the processes.
+ * The processes are ordered in front to back, i.e. in the same order they appear when typing command + tab, from left to right.
+ * See the ProcessInformationCopyDictionary function documentation for the keys used in the dictionaries.
+ * If something goes wrong, then this function returns NULL.
+ */
 CFArrayRef
 CopyLaunchedApplicationsInFrontToBackOrder(void)
 {    
@@ -95,6 +109,12 @@ CopyLaunchedApplicationsInFrontToBackOrder(void)
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
+	/*
+	 * Shameless, cop out, to avoid doing any actual code. However, it does
+	 * cause the application to load when the service is run. Which was remedied
+	 * by another ugly hack below, but at least I didn't have to code it and I
+	 * needed this quick at the time.
+	 */
 	[NSApp setServicesProvider:self];
 }
 
@@ -126,7 +146,7 @@ CopyLaunchedApplicationsInFrontToBackOrder(void)
 	
 	[gdb waitUntilExit];
 	[gdb release];
-	[NSApp terminate:self];
+	[NSApp terminate:self]; /* Terminate the left over application. */
 }
 
 @end

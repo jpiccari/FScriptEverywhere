@@ -22,6 +22,10 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
@@ -30,22 +34,20 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>LSBackgroundOnly</key>
-	<true/>
 	<key>NSServices</key>
 	<array>
 		<dict>
-			<key>NSRequiredContext</key>
-			<array/>
-			<key>NSMessage</key>
-			<string>injectFScript</string>
-			<key>NSPortName</key>
-			<string>FScriptEverywhere</string>
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
 				<string>Inject F-Script into application</string>
 			</dict>
+			<key>NSMessage</key>
+			<string>injectFScript</string>
+			<key>NSPortName</key>
+			<string>FScriptEverywhere</string>
+			<key>NSRequiredContext</key>
+			<array/>
 		</dict>
 	</array>
 </dict>
