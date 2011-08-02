@@ -30,9 +30,17 @@
  * SUCH DAMAGE.
  */
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
-int main(int argc, char *argv[])
-{
-	return NSApplicationMain(argc, (const char **)argv);
+CFArrayRef CopyLaunchedApplicationsInFrontToBackOrder(void);
+
+@interface FScriptServiceProvider : NSObject {
+@private
+	NSRunningApplication *_lastActive;
 }
+
+- (void)injectFScript:(NSPasteboard *)pboard
+			 userData:(NSString *)userData
+				error:(NSString **)error;
+
+@end

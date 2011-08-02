@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033E16E013E3EAA000656182 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033E16DF13E3EAA000656182 /* MainMenu.xib */; };
 		03627DE713E3E24B00265801 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03627DE613E3E24B00265801 /* Cocoa.framework */; };
 		03627DF113E3E24B00265801 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03627DEF13E3E24B00265801 /* InfoPlist.strings */; };
 		03627DF313E3E24B00265801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03627DF213E3E24B00265801 /* main.m */; };
 		03627DF713E3E24B00265801 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03627DF513E3E24B00265801 /* Credits.rtf */; };
-		03627DFA13E3E24B00265801 /* FScriptEverywhereAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03627DF913E3E24B00265801 /* FScriptEverywhereAppDelegate.m */; };
-		03627DFD13E3E24B00265801 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03627DFB13E3E24B00265801 /* MainMenu.xib */; };
+		03627E0513E3E27800265801 /* FScriptServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 03627E0413E3E27800265801 /* FScriptServiceProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033E16DF13E3EAA000656182 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		03627DE213E3E24B00265801 /* FScriptEverywhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FScriptEverywhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03627DE613E3E24B00265801 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		03627DE913E3E24B00265801 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		03627DEA13E3E24B00265801 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		03627DEB13E3E24B00265801 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		03627DEE13E3E24B00265801 /* FScriptEverywhere-Info.plist */ = {isa = PBXFileReference; path = "FScriptEverywhere-Info.plist"; sourceTree = "<group>"; };
+		03627DEE13E3E24B00265801 /* FScriptEverywhere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FScriptEverywhere-Info.plist"; sourceTree = "<group>"; };
 		03627DF013E3E24B00265801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03627DF213E3E24B00265801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03627DF413E3E24B00265801 /* FScriptEverywhere-Prefix.pch */ = {isa = PBXFileReference; path = "FScriptEverywhere-Prefix.pch"; sourceTree = "<group>"; };
+		03627DF413E3E24B00265801 /* FScriptEverywhere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FScriptEverywhere-Prefix.pch"; sourceTree = "<group>"; };
 		03627DF613E3E24B00265801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		03627DF813E3E24B00265801 /* FScriptEverywhereAppDelegate.h */ = {isa = PBXFileReference; path = FScriptEverywhereAppDelegate.h; sourceTree = "<group>"; };
-		03627DF913E3E24B00265801 /* FScriptEverywhereAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FScriptEverywhereAppDelegate.m; sourceTree = "<group>"; };
-		03627DFC13E3E24B00265801 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03627E0313E3E27800265801 /* FScriptServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FScriptServiceProvider.h; sourceTree = "<group>"; };
+		03627E0413E3E27800265801 /* FScriptServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FScriptServiceProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,9 @@
 		03627DEC13E3E24B00265801 /* FScriptEverywhere */ = {
 			isa = PBXGroup;
 			children = (
-				03627DF813E3E24B00265801 /* FScriptEverywhereAppDelegate.h */,
-				03627DF913E3E24B00265801 /* FScriptEverywhereAppDelegate.m */,
-				03627DFB13E3E24B00265801 /* MainMenu.xib */,
+				03627E0313E3E27800265801 /* FScriptServiceProvider.h */,
+				03627E0413E3E27800265801 /* FScriptServiceProvider.m */,
+				033E16DF13E3EAA000656182 /* MainMenu.xib */,
 				03627DED13E3E24B00265801 /* Supporting Files */,
 			);
 			path = FScriptEverywhere;
@@ -127,6 +127,9 @@
 /* Begin PBXProject section */
 		03627DD913E3E24B00265801 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = 03627DDC13E3E24B00265801 /* Build configuration list for PBXProject "FScriptEverywhere" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -151,7 +154,7 @@
 			files = (
 				03627DF113E3E24B00265801 /* InfoPlist.strings in Resources */,
 				03627DF713E3E24B00265801 /* Credits.rtf in Resources */,
-				03627DFD13E3E24B00265801 /* MainMenu.xib in Resources */,
+				033E16E013E3EAA000656182 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03627DF313E3E24B00265801 /* main.m in Sources */,
-				03627DFA13E3E24B00265801 /* FScriptEverywhereAppDelegate.m in Sources */,
+				03627E0513E3E27800265801 /* FScriptServiceProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +187,6 @@
 				03627DF613E3E24B00265801 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		03627DFB13E3E24B00265801 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03627DFC13E3E24B00265801 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -217,7 +212,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -237,7 +232,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -248,7 +243,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FScriptEverywhere/FScriptEverywhere-Prefix.pch";
 				INFOPLIST_FILE = "FScriptEverywhere/FScriptEverywhere-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -259,7 +256,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FScriptEverywhere/FScriptEverywhere-Prefix.pch";
 				INFOPLIST_FILE = "FScriptEverywhere/FScriptEverywhere-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,6 +282,7 @@
 				03627E0213E3E24B00265801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
