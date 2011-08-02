@@ -244,7 +244,6 @@
 		03627E0113E3E24B00265801 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FScriptEverywhere/FScriptEverywhere-Prefix.pch";
 				INFOPLIST_FILE = "FScriptEverywhere/FScriptEverywhere-Info.plist";
@@ -258,7 +257,6 @@
 		03627E0213E3E24B00265801 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FScriptEverywhere/FScriptEverywhere-Prefix.pch";
 				INFOPLIST_FILE = "FScriptEverywhere/FScriptEverywhere-Info.plist";
